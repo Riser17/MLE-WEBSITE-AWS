@@ -79,7 +79,7 @@ export default function ContactUsForm () {
         validationSchema= {validationContactSchema}
         onSubmit={(values, { resetForm }) => {
           submitData(values);
-          //resetForm();
+          resetForm();
         }}
       >
         <Form>
