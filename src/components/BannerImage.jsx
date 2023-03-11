@@ -8,7 +8,7 @@ const BannerImage = (props) =>{
         backgroundRepeat:"no-repeat"
     };
     return(
-        <div class="container1" style={myStyle}>
+        <div className="container1" style={myStyle}>
                     <div className="centered">{props.text}</div>
                    
         </div>
